@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "randomized_respawn",
+  "version": "${version}",
+  "name": "Randomized Respawn",
+  "description": "Makes you respawn in a random location",
+  "accessWidener": "randomized_respawn.accesswidener",
+  "authors": [
+    "n643064"
+  ],
+  "contact": {
+    "repo": "https://github.com/n643064/RandomizedRespawn"
+  },
+  "license": "GPL-3.0",
+  "icon": "assets/randomized_respawn/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [],
+    "main": [
+      "n643064.randomized_respawn.RandomizedRespawn"
+    ]
+  },
+  "mixins": [
+    "randomized_respawn.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "${minecraft_version}"
+  }
+}

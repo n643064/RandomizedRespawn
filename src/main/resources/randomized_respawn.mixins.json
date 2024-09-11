@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "n643064.randomized_respawn.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "PlayerListMixin",
+    "PlayerRespawnLogicMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
